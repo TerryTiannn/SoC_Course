@@ -1,4 +1,4 @@
 # 影片連結：
-https://youtube.com/shorts/e9Yu9bgrBm0?feature=share 
+[https://youtube.com/shorts/e9Yu9bgrBm0?feature=share ](https://youtube.com/shorts/HDoMjiERzCI?feature=share)https://youtube.com/shorts/HDoMjiERzCI?feature=share
 
-在慢速攝影當中些微看出LED並不是恆亮，而是以超高頻率在閃爍。
+
