@@ -52,9 +52,9 @@ void BTN_Intr_Handler(void *InstancePtr) //中斷處理函數
     {
     	case 1: led_val = 0x01;break;  //led[7:0]=0x01
     	case 2: led_val = 0x02;break;
-    	case 4: led_val = 0x03;break; //亮1和0 b0011
-    	case 8: led_val = 0x04;break; //亮2 b0100
-    	case 16: led_val = 0x05;break; //亮0和2 b0101
+    	case 4: led_val = 0x04;break; //亮1和0 b0011
+    	case 8: led_val = 0x08;break; //亮2 b0100
+    	case 16: led_val = 0x10;break; //亮0和2 b0101
     	default:break;
     }
      if (btn_value != 0)
