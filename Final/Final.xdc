@@ -1,0 +1,23 @@
+# JA2 Pi-CON
+set_property PACKAGE_PIN AB1  [get_ports {receive[4]}]
+set_property PACKAGE_PIN AB2  [get_ports {receive[0]}] 
+set_property PACKAGE_PIN AA7  [get_ports {receive[1]}] 
+set_property PACKAGE_PIN AB11 [get_ports {receive[2]}]  
+set_property PACKAGE_PIN AA11 [get_ports {receive[3]}] 
+set_property PACKAGE_PIN Y11  [get_ports {transmit[0]}]
+set_property PACKAGE_PIN AA6  [get_ports {transmit[1]}]  
+set_property PACKAGE_PIN AB9  [get_ports {transmit[2]}]
+set_property PACKAGE_PIN AB10 [get_ports {transmit[3]}]  
+set_property PACKAGE_PIN Y10  [get_ports {transmit[4]}]  
+
+set_property IOSTANDARD LVCMOS33 [get_ports {receive[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {receive[4]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {receive[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {receive[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {receive[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {transmit[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {transmit[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {transmit[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {transmit[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {transmit[4]}]
+

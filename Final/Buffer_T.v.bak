@@ -1,0 +1,34 @@
+`timescale 1ns/1ns
+
+module Buffer_T;
+    reg [27:9] GPIO;
+	wire [3:0] data;
+	
+    //reference by name
+    Buffer UT (
+        .GPIO(GPIO),
+        .data(data)
+		);
+   
+ initial
+ begin
+		GPIO[23] = 1 ;
+		GPIO[18] = 1 ;
+		GPIO[15] = 1 ;
+		GPIO[14] = 1 ;
+		GPIO[24] = 0 ;
+		#1;
+		GPIO[23] = 1 ;
+		GPIO[18] = 0 ;
+		GPIO[15] = 0 ;
+		GPIO[14] = 1 ;
+		GPIO[24] = 1 ;
+		#1;
+		GPIO[23] = 0 ;
+		GPIO[18] = 1 ;
+		GPIO[15] = 0 ;
+		GPIO[14] = 1 ;
+		GPIO[24] = 1 ;
+		#1;	
+	    end
+endmodule
